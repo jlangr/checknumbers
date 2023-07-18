@@ -1,9 +1,15 @@
 package checkbook;
 
-public class CheckbookNumberConverter {
-   public String convert(int number) {
-      if(number == 0) return "zero";
+import java.util.Map;
 
-      return "one";
+public class CheckbookNumberConverter {
+   Map<Integer,String> conversions = Map.of(
+      0, "zero",
+      1, "one",
+      7, "seven",
+      10, "ten"
+   );
+   public String convert(int number) {
+      return conversions.get(number);
    }
 }
