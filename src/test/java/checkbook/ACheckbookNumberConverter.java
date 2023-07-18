@@ -17,7 +17,7 @@ public class ACheckbookNumberConverter {
    @ParameterizedTest
    @CsvSource(value={
       "0,zero",
-//      "1,one",
+      "1,one",
 //      "7,seven",
 //      "10,ten",
 //      "19,nineteen",
