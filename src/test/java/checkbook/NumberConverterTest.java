@@ -1,12 +1,14 @@
 package checkbook;
 
 import org.junit.jupiter.api.*;
+
+import static checkbook.NumberConverter.toWords;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class NumberConverterTest {
    @Test
    public void zero() {
-      assertEquals("zero", NumberConverter.toWords(0));
+      assertEquals("zero", toWords(0));
    }
 
    /*
