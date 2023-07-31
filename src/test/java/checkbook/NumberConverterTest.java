@@ -11,10 +11,10 @@ public class NumberConverterTest {
       assertEquals("zero", toWords(0));
    }
 
-//   @Test
-//   void one() {
-//      assertEquals("one", toWords(1));
-//   }
+   @Test
+   void one() {
+      assertEquals("one", toWords(1));
+   }
 
 //   @Test
 //   void nine() {

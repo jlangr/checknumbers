@@ -2,6 +2,7 @@ package checkbook;
 
 public class NumberConverter {
    public static String toWords(int number) {
-      return "zero";
+      if (number == 0) return "zero";
+      return "one";
    }
 }
