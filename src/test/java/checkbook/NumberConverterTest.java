@@ -11,12 +11,12 @@ public class NumberConverterTest {
       assertEquals("zero", toWords(0));
    }
 
-//   @Test
-//   void digits() {
-//      assertEquals("one", toWords(1));
-//      assertEquals("nine", toWords(9));
+   @Test
+   void digits() {
+      assertEquals("one", toWords(1));
+      assertEquals("nine", toWords(9));
 //      assertEquals("twelve", toWords(12));
-//   }
+   }
 //
 //   @Test
 //   void tens() {
