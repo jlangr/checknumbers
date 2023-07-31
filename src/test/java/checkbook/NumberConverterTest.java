@@ -16,10 +16,10 @@ public class NumberConverterTest {
       assertEquals("one", toWords(1));
    }
 
-//   @Test
-//   void nine() {
-//      assertEquals("nine", toWords(9));
-//   }
+   @Test
+   void nine() {
+      assertEquals("nine", toWords(9));
+   }
 
 //   @Test
 //   void tens() {
