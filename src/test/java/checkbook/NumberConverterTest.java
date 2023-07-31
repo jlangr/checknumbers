@@ -11,27 +11,27 @@ public class NumberConverterTest {
       assertEquals("zero", toWords(0));
    }
 
-   @Test
-   void digits() {
-      assertEquals("one", toWords(1));
-      assertEquals("nine", toWords(9));
-//      assertEquals("twelve", toWords(12));
-   }
-//
+//   @Test
+//   void one() {
+//      assertEquals("one", toWords(1));
+//   }
+
+//   @Test
+//   void nine() {
+//      assertEquals("nine", toWords(9));
+//   }
+
 //   @Test
 //   void tens() {
 //      assertEquals("twenty", toWords(20));
 //      assertEquals("ninety", toWords(90));
 //   }
-//
+
 //   @Test
 //   void combinedUnitsAndTens() {
 //      assertEquals("thirty-two", toWords(32));
 //      assertEquals("eighty-eight", toWords(88));
 //   }
-
-
-
 }
 
 
