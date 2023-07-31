@@ -24,7 +24,7 @@ public class NumberConverterTest {
    @Test
    void tens() {
       assertEquals("twenty", toWords(20));
-//      assertEquals("ninety", toWords(90));
+      assertEquals("ninety", toWords(90));
    }
 
 //   @Test
