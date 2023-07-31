@@ -21,11 +21,11 @@ public class NumberConverterTest {
       assertEquals("nine", toWords(9));
    }
 
-//   @Test
-//   void tens() {
-//      assertEquals("twenty", toWords(20));
+   @Test
+   void tens() {
+      assertEquals("twenty", toWords(20));
 //      assertEquals("ninety", toWords(90));
-//   }
+   }
 
 //   @Test
 //   void combinedUnitsAndTens() {
